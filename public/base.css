@@ -2,19 +2,21 @@ body{
     color: azure;
     top: 0px    ;
     margin: 0 0 0 0;
-    background-color: rgb(29, 26, 39);
+    /*background-color: rgb(19, 12, 41);*/
 }
 html{
-    box-shadow: inset 0 0 100px 2px black;
+    /*box-shadow: inset 0 0 100px 2px black;*/
     height: 100%;
 }
 
-#h1{
+h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 250%;
     margin: 5px 0 5px 0;
-    text-shadow: 0 0 5px rgb(186, 186, 186);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(249, 0, 0);
+    background-color: rgb(255, 0, 0);
 }
 hr{
     border: white;
@@ -26,15 +28,17 @@ hr{
     width: 500px;
     max-width: 90%;
     text-align: left;
-    background-color: rgb(53, 47, 71);
+    background-color: rgb(254, 254, 254);
+    /*background-color: rgb(122, 110, 159);*/
     padding: 20px;
     color: black;
     font-weight: 500;
     font-size: 150%;
     box-shadow: 5px 5px 30px 1px black,
-    inset 0 0 20px 1px rgb(105, 105, 107);
-    border-radius: 15px;
-    border: solid 2px rgb(199, 199, 199);
+    inset 0 0 20px 1px rgb(197, 197, 207);
+    border-radius: 25px;
+    border: solid 2px rgb(198, 8, 8);
+    /*border: solid 2px rgb(199, 199, 199);*/
 }
 
 #presentacionFormulario{
@@ -59,9 +63,14 @@ p {
     width: 600px;
     max-width: 95%;
 
-    border: solid 2px rgb(29, 26, 39);
+    border: solid 2px rgb(243, 0, 0);
     background: rgb(255, 255, 255);
-    box-shadow: inset -10px 0 20px 1px rgb(100, 100, 100);
+    border-radius: 15px;
+    /*box-shadow: inset -10px 0 20px 1px rgb(100, 100, 100);*/
+}
+
+#boton{
+    width: 40%;
 }
 
 #boton{
